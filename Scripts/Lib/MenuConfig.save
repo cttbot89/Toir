@@ -1,0 +1,610 @@
+local gConfig = {
+   ["menuY"] = 24.999931335449;
+   ["menuX"] = 389.99993896484;
+   ["menu"] = {
+      ["Graves"] = {
+         ["<SDK> VPrediction"] = {
+            ["Developer Settings"] = {
+               ["Draw Enemy Hitboxes"] = false;
+            };
+            ["Collision Settings"] = {
+               ["Check Collision at Unit Pos"] = true;
+               ["Collision Buffer"] = 20;
+               ["Others"] = true;
+               ["Jungle Minions"] = true;
+               ["Check Collision at Predicted Pos"] = false;
+               ["Normal Minions"] = true;
+               ["Check Collision at Cast Pos"] = true;
+            };
+            ["Version: 1.02"] = "Version: 1.02";
+            ["Cast Mode:"] = 1;
+            ["Ported & Updated By: Dewblackio2"] = "Ported & Updated By: Dewblackio2";
+         };
+         ["Setting W"] = {
+            ["Use W End Dash"] = true;
+            ["Use W If Slow"] = true;
+            ["Use W Anti GapClose"] = true;
+            ["Auto Use W Combo"] = false;
+         };
+         ["Setting Q"] = {
+            ["Use Q Kill Steal"] = true;
+            ["Use Q Interrup"] = true;
+            ["Auto Q End Dash"] = true;
+            ["Use Q"] = true;
+            ["Auto Q If Wall"] = true;
+            ["Use W Kill Steal"] = true;
+         };
+         ["Drawings Spell"] = {
+            ["Draw E Range"] = false;
+            ["Draw R2 Range"] = false;
+            ["Draw When Already"] = true;
+            ["Draw Q Counter"] = true;
+            ["Draw R Range"] = true;
+            ["Draw Q Range"] = true;
+            ["Draw W Range"] = false;
+            ["Draw R1 Range"] = false;
+         };
+         ["Setting E"] = {
+            ["E Mode"] = 3;
+            ["Enable E"] = true;
+            ["Use E Interrup"] = true;
+            ["Enable E Reload JungFarm"] = true;
+         };
+         ["Setting R"] = {
+            ["Enable R"] = true;
+            ["Use R Kill Steal"] = true;
+            ["Auto R if Hit"] = 2;
+         };
+         ["Mod Skin"] = {
+            ["Set Skin"] = 16;
+         };
+         ["Setting Smite"] = {
+            ["Use Smite Kill Steal"] = true;
+            ["Use Smite Blue"] = false;
+            ["Use Smite in Combo"] = true;
+            ["Smite Jungle"] = "Smite Jungle";
+            ["Use Smite Red"] = true;
+            ["Use Smite Baron"] = true;
+            ["Use Smite Dragon"] = true;
+            ["Use Smite Small Jungle"] = false;
+         };
+         ["Target Selector"] = {
+            ["Quinn"] = 4;
+            ["Leblanc"] = 4;
+            ["Teemo"] = 4;
+            ["    Priority Settings"] = "    Priority Settings";
+            ["Mode"] = 1;
+            ["Vayne"] = 4;
+            ["Lux"] = 4;
+            ["Focus Target Settings"] = {
+               ["Focus Selected Target"] = true;
+               ["Attack Only Selected Target"] = true;
+            };
+            ["XinZhao"] = 2;
+            ["Jinx"] = 4;
+            ["Draven"] = 4;
+            ["Shen"] = 1;
+            ["Jax"] = 2;
+            ["Annie"] = 4;
+            ["PracticeTool_TargetDummy"] = 1;
+            ["Garen"] = 1;
+            ["Cassiopeia"] = 4;
+            ["Elise"] = 2;
+         };
+      };
+      ["Thresh Magic"] = "Thresh Magic";
+      ["TOIR MENU"] = "TOIR MENU";
+      ["Orbwalking"] = {
+         ["Drawings"] = {
+            ["Draw Target"] = true;
+            ["Auto-Attack Range"] = false;
+            ["Draw Last Hit Helper"] = false;
+            ["Auto-Attack Range Enemy"] = false;
+            ["Draw Hold Position"] = false;
+         };
+         ["Key Bindings"] = {
+            ["Lane Clear"] = 86;
+            ["Harass"] = 67;
+            ["Combo"] = 32;
+            ["Last Hit"] = 88;
+            ["Enabled"] = true;
+         };
+         ["Advanced"] = {
+            ["Extra Hold Position"] = 100;
+            ["Windup"] = 80;
+            ["Small Jungle"] = true;
+            ["MovementAdvanced"] = "MovementAdvanced";
+            ["Maximum Distance"] = 1500;
+            ["Use Missile Check"] = true;
+            ["Farm"] = 0;
+            ["Prioritization"] = "Prioritization";
+            ["Barrels"] = true;
+            ["Wards , Trap"] = true;
+            ["Attack"] = "Attack";
+         };
+      };
+      ["Thresh"] = {
+         ["Drawings Spell"] = {
+            ["Draw E Range"] = false;
+            ["Draw Q Counter"] = false;
+            ["Draw R Range"] = false;
+            ["Draw Q Range"] = true;
+            ["Draw W Range"] = false;
+            ["Draw When Already"] = true;
+         };
+         ["Setting E"] = {
+            ["Use E Kill Steal"] = true;
+            ["Use E Anti Gapclose"] = true;
+            ["Use E Push"] = 69;
+            ["Use E Interrup"] = true;
+            ["Use E Pull"] = 32;
+         };
+         ["Setting R"] = {
+            ["Enable R if "] = true;
+            ["Use R Kill Steal"] = true;
+            ["Enable R for x Enemy"] = 2;
+         };
+         ["<SDK> VPrediction"] = {
+            ["Developer Settings"] = {
+               ["Draw Enemy Hitboxes"] = false;
+            };
+            ["Collision Settings"] = {
+               ["Check Collision at Unit Pos"] = true;
+               ["Collision Buffer"] = 20;
+               ["Others"] = true;
+               ["Jungle Minions"] = true;
+               ["Check Collision at Predicted Pos"] = true;
+               ["Normal Minions"] = true;
+               ["Check Collision at Cast Pos"] = true;
+            };
+            ["Version: 1.02"] = "Version: 1.02";
+            ["Cast Mode:"] = 1;
+            ["Ported & Updated By: Dewblackio2"] = "Ported & Updated By: Dewblackio2";
+         };
+         ["Setting W"] = {
+            ["Save Allies When HP"] = 20;
+            ["Save When HP"] = 30;
+            ["Shield Allies on CC"] = 40;
+            ["Save Me When HP"] = 20;
+            ["Auto Use W Combo"] = true;
+         };
+         ["Setting Q"] = {
+            ["Use Q2"] = false;
+            ["Use Q Interrup"] = true;
+            ["Auto Q End Dash"] = true;
+            ["Use Q"] = true;
+            ["Use Q Kill Steal"] = true;
+         };
+      };
+      ["Twitch"] = {
+         ["<SDK> VPrediction"] = {
+            ["Developer Settings"] = {
+               ["Draw Enemy Hitboxes"] = false;
+            };
+            ["Collision Settings"] = {
+               ["Check Collision at Unit Pos"] = true;
+               ["Collision Buffer"] = 20;
+               ["Others"] = true;
+               ["Jungle Minions"] = true;
+               ["Check Collision at Predicted Pos"] = false;
+               ["Normal Minions"] = true;
+               ["Check Collision at Cast Pos"] = true;
+            };
+            ["Cast Mode:"] = 1;
+            ["Version: 1.02"] = "Version: 1.02";
+            ["Ported & Updated By: Dewblackio2"] = "Ported & Updated By: Dewblackio2";
+         };
+         ["Setting W"] = {
+            ["W Mode"] = 2;
+            ["Use W End Dash"] = true;
+            ["Auto Use W Combo"] = false;
+            ["Use W Anti GapClose"] = true;
+            ["Auto W if Hit"] = 2;
+         };
+         ["Setting Q"] = {
+            ["Safe Recall"] = 66;
+            ["Use Q"] = true;
+            ["Use Q In Combo"] = true;
+            ["Auto Q if Have"] = 3;
+         };
+         ["Drawings"] = {
+            ["Draw E Range"] = false;
+            ["Draw When Already"] = false;
+            ["Draw Q Range"] = true;
+            ["Draw R Range"] = false;
+            ["Draw E Damage"] = true;
+            ["Draw W Range"] = true;
+            ["Draw Q Time Stealth"] = true;
+         };
+         ["Drawings Spell"] = {
+            ["Draw E Range"] = true;
+            ["Draw Q Time Stealth"] = true;
+            ["Draw Q Time"] = true;
+            ["Draw Q Range"] = true;
+            ["Draw R Range"] = true;
+            ["Draw E Damage"] = false;
+            ["Draw W Range"] = true;
+            ["Draw When Already"] = false;
+         };
+         ["Setting E"] = {
+            ["Auto E If Stack"] = 6;
+            ["E In Jungle"] = "E In Jungle";
+            ["Target Mode"] = 2;
+            ["Auto E KS Red"] = true;
+            ["Auto E If Out Range"] = 3;
+            ["Auto E Kill Steal"] = true;
+            ["Enable E"] = true;
+            ["Auto E Last Hit"] = true;
+            ["Auto E KS Baron"] = true;
+            ["Auto E Out Range & Stack"] = 6;
+            ["Auto E KS Dragon"] = true;
+            ["Mode Target"] = 2;
+            ["Auto E KS Blue"] = true;
+         };
+         ["Setting R"] = {
+            ["Auto R if Hit"] = 2;
+            ["Use R Kill Steal"] = true;
+            ["Use R In Combo"] = true;
+            ["Enable R"] = true;
+            ["Auto R If Have Enemy"] = 3;
+         };
+         ["Mod Skin"] = {
+            ["Enalble Mod Skin"] = true;
+            ["Set Skin"] = 9;
+         };
+         ["Setting Smite"] = {
+            ["Use Smite Kill Steal"] = true;
+            ["Use Smite Blue"] = false;
+            ["Use Smite in Combo"] = true;
+            ["Smite Jungle"] = "Smite Jungle";
+            ["Use Smite Red"] = true;
+            ["Use Smite Small Jungle"] = true;
+            ["Use Smite Dragon"] = true;
+            ["Use Smite Baron"] = true;
+         };
+         ["Target Selector"] = {
+            ["Camille"] = 1;
+            ["Zilean"] = 3;
+            ["MasterYi"] = 4;
+            ["PracticeTool_TargetDummy"] = 1;
+            ["Zoe"] = 4;
+            ["Sivir"] = 4;
+            ["Kalista"] = 4;
+            ["Irelia"] = 2;
+            ["Fizz"] = 3;
+            ["    Priority Settings"] = "    Priority Settings";
+            ["Mode"] = 1;
+            ["Taliyah"] = 1;
+            ["Ezreal"] = 4;
+            ["LeeSin"] = 1;
+            ["Focus Target Settings"] = {
+               ["Focus Selected Target"] = true;
+               ["Attack Only Selected Target"] = true;
+            };
+            ["Thresh"] = 1;
+            ["XinZhao"] = 2;
+            ["MissFortune"] = 4;
+            ["Volibear"] = 1;
+            ["Heimerdinger"] = 3;
+            ["Zed"] = 4;
+            ["Poppy"] = 2;
+            ["Caitlyn"] = 4;
+            ["Annie"] = 4;
+            ["Yasuo"] = 3;
+            ["Ashe"] = 4;
+            ["Malphite"] = 1;
+            ["Singed"] = 1;
+            ["Zac"] = 1;
+         };
+      };
+      ["Graves Magic"] = "Graves Magic";
+      ["Blitzcrank"] = {
+         ["Setting R"] = {
+            ["Enable R"] = true;
+            ["Use R Kill Steal"] = true;
+         };
+         ["Drawings Spell"] = {
+            ["Draw E Range"] = false;
+            ["Draw R Range"] = false;
+            ["Draw Q Range"] = true;
+            ["Draw Q Counter"] = false;
+            ["Draw When Already"] = true;
+         };
+         ["Setting E"] = {
+            ["Use E Interrup"] = true;
+            ["Enable E"] = true;
+         };
+         ["<SDK> VPrediction"] = {
+            ["Developer Settings"] = {
+               ["Draw Enemy Hitboxes"] = false;
+            };
+            ["Collision Settings"] = {
+               ["Check Collision at Unit Pos"] = true;
+               ["Collision Buffer"] = 20;
+               ["Others"] = true;
+               ["Jungle Minions"] = true;
+               ["Check Collision at Predicted Pos"] = false;
+               ["Normal Minions"] = true;
+               ["Check Collision at Cast Pos"] = true;
+            };
+            ["Cast Mode:"] = 1;
+            ["Version: 1.02"] = "Version: 1.02";
+            ["Ported & Updated By: Dewblackio2"] = "Ported & Updated By: Dewblackio2";
+         };
+         ["Target Selector"] = {
+            ["Xayah"] = 4;
+            ["Akali"] = 3;
+            ["Maokai"] = 2;
+            ["    Priority Settings"] = "    Priority Settings";
+            ["Mode"] = 1;
+            ["Shaco"] = 3;
+            ["Vayne"] = 4;
+            ["Lux"] = 4;
+            ["Twitch"] = 4;
+            ["Jinx"] = 4;
+            ["Draven"] = 4;
+            ["Soraka"] = 4;
+            ["Yasuo"] = 3;
+            ["Cassiopeia"] = 4;
+            ["Nasus"] = 1;
+            ["Galio"] = 2;
+            ["Zoe"] = 4;
+            ["Riven"] = 2;
+            ["Graves"] = 4;
+            ["MasterYi"] = 4;
+            ["Teemo"] = 4;
+            ["Fizz"] = 3;
+            ["PracticeTool_TargetDummy"] = 1;
+            ["MonkeyKing"] = 1;
+            ["Ezreal"] = 4;
+            ["Irelia"] = 2;
+            ["LeeSin"] = 1;
+            ["Focus Target Settings"] = {
+               ["Focus Selected Target"] = true;
+               ["Attack Only Selected Target"] = true;
+            };
+            ["Thresh"] = 1;
+            ["XinZhao"] = 2;
+            ["Volibear"] = 1;
+            ["Alistar"] = 1;
+            ["Shen"] = 1;
+            ["Veigar"] = 4;
+            ["Garen"] = 1;
+            ["Jax"] = 2;
+            ["Trundle"] = 2;
+            ["KogMaw"] = 4;
+            ["Lucian"] = 4;
+            ["Swain"] = 2;
+            ["Braum"] = 1;
+            ["Renekton"] = 1;
+         };
+         ["Setting W"] = {
+            ["Auto Use W Combo"] = false;
+            ["Use W If Slow"] = true;
+         };
+         ["Setting Q"] = {
+            ["Auto Q End Dash"] = true;
+            ["Use Q"] = true;
+            ["Use Q Interrup"] = true;
+            ["Use Q Kill Steal"] = true;
+         };
+      };
+      ["Twitch Magic"] = "Twitch Magic";
+      ["VPrediction"] = {};
+      ["Baseult"] = {
+         ["Key Bindings"] = {
+            ["Auto"] = true;
+            ["Do Not Use Ultimate in Fight"] = 72;
+         };
+         ["Draw"] = {
+            ["edit x"] = 480;
+            ["edit y"] = 560;
+         };
+      };
+      ["Anti-Gapcloser"] = {
+         ["Enabled"] = true;
+         ["No spell available to interrupt"] = "No spell available to interrupt";
+         ["Shen | E | Shadow Dash"] = true;
+         ["Shen | ShenE"] = false;
+         ["Alistar | W | Headbutt"] = true;
+         ["ShenShadowDash"] = true;
+         ["XinZhao | E | Crescent Sweep"] = true;
+         ["E | Shadow Dash"] = true;
+         ["Garen | Q | Decisive Strike"] = true;
+         ["Jax | Q | Leap Strike"] = false;
+      };
+      ["Lucian"] = {
+         ["<SDK> VPrediction"] = {
+            ["Developer Settings"] = {
+               ["Draw Enemy Hitboxes"] = false;
+            };
+            ["Collision Settings"] = {
+               ["Check Collision at Unit Pos"] = true;
+               ["Collision Buffer"] = 20;
+               ["Others"] = true;
+               ["Jungle Minions"] = true;
+               ["Check Collision at Predicted Pos"] = false;
+               ["Normal Minions"] = true;
+               ["Check Collision at Cast Pos"] = true;
+            };
+            ["Version: 1.02"] = "Version: 1.02";
+            ["Cast Mode:"] = 1;
+            ["Ported & Updated By: Dewblackio2"] = "Ported & Updated By: Dewblackio2";
+         };
+         ["Setting W"] = {
+            ["Use W End Dash"] = true;
+            ["Use W Anti GapClose"] = true;
+            ["Auto Use W Combo"] = true;
+         };
+         ["Setting Q"] = {
+            ["Use Q Kill Steal"] = true;
+            ["Auto Q End Dash"] = true;
+            ["Auto Q If Hit Minion"] = 2;
+            ["Auto Q If Mana"] = 60;
+            ["Use W Kill Steal"] = true;
+            ["Auto Q If Wall"] = true;
+            ["Use Q"] = true;
+         };
+         ["Setting Smite"] = {
+            ["Use Smite Kill Steal"] = true;
+            ["Use Smite Blue"] = true;
+            ["Use Smite in Combo"] = true;
+            ["Smite Jungle"] = "Smite Jungle";
+            ["Use Smite Red"] = true;
+            ["Use Smite Baron"] = true;
+            ["Use Smite Dragon"] = true;
+            ["Use Smite Small Jungle"] = true;
+         };
+         ["Drawings Spell"] = {
+            ["Draw E Range"] = true;
+            ["Draw R1 Range"] = true;
+            ["Draw Q Extend Range"] = true;
+            ["Draw R Range"] = true;
+            ["Draw Q Range"] = true;
+            ["Draw W Range"] = true;
+            ["Draw When Already"] = true;
+         };
+         ["Setting E"] = {
+            ["E Mode"] = 3;
+            ["Enable E"] = true;
+            ["Enable E Reload JungFarm"] = true;
+         };
+         ["Setting R"] = {
+            ["Auto R if Hit"] = 2;
+            ["Lock R On Target"] = 72;
+            ["Use R Kill Steal"] = true;
+            ["Enable R"] = true;
+         };
+         ["Mod Skin"] = {
+            ["Enalble Mod Skin"] = false;
+            ["Set Skin"] = 7;
+         };
+         ["Target Selector"] = {
+            ["Focus Target Settings"] = {
+               ["Focus Selected Target"] = true;
+               ["Attack Only Selected Target"] = true;
+            };
+            ["PracticeTool_TargetDummy"] = 1;
+            ["Nunu"] = 1;
+            ["Zyra"] = 1;
+            ["Shen"] = 1;
+            ["Kayle"] = 3;
+            ["Rammus"] = 1;
+            ["    Priority Settings"] = "    Priority Settings";
+            ["Mode"] = 1;
+            ["Swain"] = 2;
+            ["Nasus"] = 1;
+         };
+         ["Enalble Mod Skin"] = false;
+      };
+      ["Lucian Magic"] = "Lucian Magic";
+      ["test"] = {
+         ["<SDK> VPrediction"] = {
+            ["Developer Settings"] = {
+               ["Draw Enemy Hitboxes"] = false;
+            };
+            ["Collision Settings"] = {
+               ["Check Collision at Unit Pos"] = true;
+               ["Collision Buffer"] = 20;
+               ["Others"] = true;
+               ["Jungle Minions"] = true;
+               ["Check Collision at Predicted Pos"] = false;
+               ["Normal Minions"] = true;
+               ["Check Collision at Cast Pos"] = true;
+            };
+            ["Version: 1.02"] = "Version: 1.02";
+            ["Cast Mode:"] = 1;
+            ["Ported & Updated By: Dewblackio2"] = "Ported & Updated By: Dewblackio2";
+         };
+         ["Target Selector"] = {
+            ["Focus Target Settings"] = {
+               ["Focus Selected Target"] = true;
+               ["Attack Only Selected Target"] = true;
+            };
+            ["Rammus"] = 1;
+            ["    Priority Settings"] = "    Priority Settings";
+            ["Mode"] = 1;
+            ["DrMundo"] = 1;
+            ["PracticeTool_TargetDummy"] = 1;
+         };
+      };
+      ["Blitzcrank Magic"] = "Blitzcrank Magic";
+      ["Jinx Magic"] = "Jinx Magic";
+      ["Jinx"] = {
+         ["Target Selector"] = {
+            ["Amumu"] = 1;
+            ["PracticeTool_TargetDummy"] = 1;
+            ["Warwick"] = 1;
+            ["Chogath"] = 1;
+            ["Garen"] = 1;
+            ["Janna"] = 1;
+            ["Focus Target Settings"] = {
+               ["Focus Selected Target"] = true;
+               ["Attack Only Selected Target"] = true;
+            };
+            ["Heimerdinger"] = 3;
+            ["    Priority Settings"] = "    Priority Settings";
+            ["Mode"] = 1;
+            ["Graves"] = 4;
+            ["Taric"] = 1;
+         };
+         ["<SDK> VPrediction"] = {
+            ["Developer Settings"] = {
+               ["Draw Enemy Hitboxes"] = false;
+            };
+            ["Collision Settings"] = {
+               ["Check Collision at Unit Pos"] = true;
+               ["Collision Buffer"] = 20;
+               ["Others"] = true;
+               ["Jungle Minions"] = true;
+               ["Check Collision at Predicted Pos"] = false;
+               ["Normal Minions"] = true;
+               ["Check Collision at Cast Pos"] = true;
+            };
+            ["Cast Mode:"] = 1;
+            ["Version: 1.02"] = "Version: 1.02";
+            ["Ported & Updated By: Dewblackio2"] = "Ported & Updated By: Dewblackio2";
+         };
+         ["Drawings Spell"] = {
+            ["Draw E Range"] = true;
+            ["Draw Q Extend Range"] = true;
+            ["Draw R Range"] = true;
+            ["Draw Q Range"] = true;
+            ["Draw W Range"] = true;
+            ["Draw When Already"] = true;
+         };
+         ["Setting E"] = {
+            ["Auto E"] = true;
+            ["Enable E"] = true;
+            ["E Mode"] = 3;
+            ["Enable E Beta"] = true;
+            ["Auto E On Process Spell"] = true;
+            ["Use E End Dash"] = true;
+         };
+         ["Setting R"] = {
+            ["Enable R"] = true;
+            ["Use R Kill Steal"] = false;
+            ["Lock R On Target"] = 72;
+         };
+         ["Mod Skin"] = {
+            ["Enalble Mod Skin"] = false;
+            ["Set Skin"] = 7;
+         };
+         ["Setting W"] = {
+            ["Use W End Dash"] = true;
+            ["Auto Use W to CC"] = false;
+            ["Auto Use W Combo"] = false;
+         };
+         ["Setting Q"] = {
+            ["Auto Use Q Harass"] = true;
+            ["Use Q Kill Steal"] = true;
+            ["Auto Q If Hit Minion"] = 2;
+            ["Auto Q If Mana"] = 60;
+            ["Use Q"] = true;
+            ["Use W Kill Steal"] = true;
+            ["Auto Use Q"] = true;
+         };
+      };
+   };
+};
+return gConfig
